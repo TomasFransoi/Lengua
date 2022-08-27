@@ -1,5 +1,41 @@
+*{
+  margin: 0px;
+}
+ul {
+  list-style-type: none; }
+@media screen and (max-width: 800px) {
+  img{
+      max-width: 700px;
+  }
+  }
+@media screen and (max-width: 710px) {
+  img{
+      max-width: 600px;
+  }
+  }
+  @media screen and (max-width: 610px) {
+    img{
+        max-width: 500px;
+    }
+    }
+    @media screen and (max-width: 510px) {
+      img{
+          max-width: 400px;
+      }
+      }
+      @media screen and (max-width: 410px) {
+          img{
+              max-width: 300px;
+          }
+          }
+          @media screen and (max-width: 310px) {
+              img{
+                  max-width: 200px;
+              }
+              }
 .App {
   text-align: center;
+  background-color:#dc673d;
 }
 
 .App-logo {

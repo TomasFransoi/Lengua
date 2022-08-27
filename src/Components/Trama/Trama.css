@@ -1,0 +1,8 @@
+.Trama{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.h1Trama{
+    padding-bottom: 10px;
+}
