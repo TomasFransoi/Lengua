@@ -6,11 +6,15 @@ p{
     display:grid;
     align-content: center;
     grid-template-columns: 1fr 300px 1fr;
-    grid-template-rows: 50px 70px 50px 50px 70px;
-    grid-template-areas: "a b c""a d c""a e c""a f c""a g c";
+    grid-template-rows: 50px 50px 70px 50px 50px 70px;
+    grid-template-areas: "a h c""a b c""a d c""a e c""a f c""a g c";
 }
 .b{grid-area: b;}
 .d{grid-area: d;}
 .e{grid-area: e;}
 .f{grid-area: f;}
 .g{grid-area: g;}
+.h{grid-area: h;}
+.imgEspacio{
+    max-height: 500px;
+}

@@ -3,7 +3,7 @@ const PersonajeDetail = ({ name,edad,vivienda,trabajo,caracteristicasCorporales,
     return (
         <>
                     <h1>{name}</h1>
-        <section>
+        <section >
             <picture>
                 <img src={img} alt={name} className="imagenDelObjeto"/>
             </picture>  
